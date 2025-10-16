@@ -1,0 +1,105 @@
+**Remote Work Policy Document**
+
+---
+
+**Purpose**: To define the framework under which employees at ACompany may work remotely, ensuring flexibility, productivity, and alignment with business goals.
+
+**Scope**: This policy applies to all eligible full-time and part-time employees of ACompany. It does not apply to contractors unless otherwise specified in their contract.
+
+---
+
+### 1. Eligibility Criteria
+
+* Employees must have completed their 90-day probation period.
+* Employees must have demonstrated the ability to work independently and meet performance expectations.
+* Roles that are client-facing, involve physical infrastructure, or require on-site presence may be excluded unless otherwise approved.
+
+---
+
+### 2. Remote Work Types
+
+* **Hybrid**: A mix of remote and on-site days (e.g., 2–3 days remote/week).
+* **Fully Remote**: Employees working 100% remotely from an approved location.
+
+Requests for remote status should be submitted to HR and approved by the department head.
+
+---
+
+### 3. Work Hours and Availability
+
+* Maintain core working hours: **9:00 AM to 6:00 PM** local time.
+* Be available during team meetings, stand-ups, and client calls.
+* Update daily status in the team communication tool (e.g., Slack, Teams).
+
+---
+
+### 4. Communication Guidelines
+
+* Use company-approved communication tools (Slack, Zoom, Gmail).
+* Video must be enabled during scheduled video meetings unless exceptions are granted.
+* Respond to internal messages/emails within 1 business day.
+
+---
+
+### 5. Equipment and IT Support
+
+* Eligible employees will be issued:
+
+  * ACompany laptop
+  * Mouse, headset (if needed)
+  * VPN and security tools
+* Internet stipend of **$50/month** reimbursed via the expense policy.
+* Report technical issues immediately to: `it-support@acompany.com`
+
+---
+
+### 6. Security and Confidentiality
+
+* All remote work must adhere to ACompany’s IT and data protection policies.
+* Use VPN at all times while accessing company systems.
+* Devices must be locked when not in use.
+* No use of public/shared computers for company work.
+
+---
+
+### 7. Workspace Requirements
+
+* Employees must have a quiet, secure, and ergonomically sound environment.
+* Internet speed must support video calls and system access without lag.
+
+---
+
+### 8. Performance Monitoring
+
+* Managers will evaluate remote work performance based on:
+
+  * Output and quality of deliverables
+  * Timeliness
+  * Communication
+  * Collaboration
+* Poor performance may lead to remote work privileges being revoked.
+
+---
+
+### 9. Travel and Work-from-Anywhere (WFA)
+
+* Employees may request to work temporarily from another city or country.
+* Approval required from the manager and HR.
+* Must confirm compliance with data residency, labor, and tax regulations.
+
+---
+
+### 10. Policy Violations
+
+* Non-compliance may result in:
+
+  * Warning
+  * Revocation of remote privileges
+  * Disciplinary action per HR policies
+
+---
+
+**Contact Information**:
+
+* HR Team: `hr@acompany.com`
+* IT Support: `it-support@acompany.com`

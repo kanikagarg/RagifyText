@@ -1,0 +1,69 @@
+**Holiday Policy Document**
+
+---
+
+**Purpose**: To outline the official company holidays recognized by ACompany and provide guidelines for floating and optional holidays.
+
+**Scope**: This policy applies to all employees of ACompany, regardless of work location or department.
+
+---
+
+### Annual Fixed Holidays
+
+The following holidays are observed company-wide and are considered paid days off:
+
+| Date                        | Holiday Name               |
+| --------------------------- | -------------------------- |
+| January 1                   | New Year’s Day             |
+| Third Monday in January     | Martin Luther King Jr. Day |
+| Last Monday in May          | Memorial Day               |
+| July 4                      | Independence Day           |
+| First Monday in September   | Labor Day                  |
+| Fourth Thursday in November | Thanksgiving Day           |
+| Friday after Thanksgiving   | Day after Thanksgiving     |
+| December 25                 | Christmas Day              |
+
+---
+
+### Floating Holidays
+
+* Employees are entitled to **2 floating holidays** per year.
+* These may be used for religious, cultural, or regional observances.
+* Must be requested via the HR portal and approved by the manager at least **5 business days** in advance.
+
+---
+
+### Optional Observances
+
+* ACompany recognizes that employees may wish to observe additional holidays or regional events.
+* Employees may request **unpaid time off** or use available **Casual Leave** for such occasions.
+
+---
+
+### Weekend Holiday Adjustments
+
+* If a fixed holiday falls on a **Saturday**, it will be observed on the **preceding Friday**.
+* If it falls on a **Sunday**, it will be observed on the **following Monday**.
+
+---
+
+### Holiday Pay
+
+* Employees required to work on a fixed holiday due to operational needs will receive **1.5x regular pay** or a **compensatory day off**, subject to managerial approval.
+
+---
+
+### Blackout Periods
+
+* Teams involved in mission-critical functions may be required to work on holidays.
+* Such periods will be communicated by department heads well in advance.
+
+---
+
+### Policy Abuse
+
+* Misuse or misrepresentation of holiday leave may result in a formal HR review and potential disciplinary action.
+
+---
+
+**For questions or holiday calendar requests, please contact**: `hr@acompany.com`
