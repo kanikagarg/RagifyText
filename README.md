@@ -26,11 +26,10 @@ It leverages open-source embedding models and a lightweight vector store (FAISS)
 Project structure
 ```
 REPO
-├──app/
-│   ├── main.py
-│   ├──.env (Optional)
-│   ├──storage/
-│   └──data/
+├──main.py
+├──.env (optional)
+├──storage/
+├──data/
 ├── requirements.txt
 ├── Dockerfile
 ├── sample_data/
@@ -62,9 +61,14 @@ USE_OPEN_AI="0"  # set to 1 if using OpenAI Embeddings
 ```
 > `RAG_AUTH_TOKEN` is needed to authenticate the request
 
-4. Execute
+4. Execute 
+- using uvicorn
 ```
 uvicorn app.main:app --reload
+```
+- Using Fastapi dev cli
+```
+fastapi dev app/main.py
 ```
 # Using Docker
 

@@ -112,7 +112,7 @@ class QueryOut(BaseModel):
 
 
 USE_OPEN_AI = os.getenv("USE_OPEN_AI", "false").lower() in ("1", "true")
-
+api_key = os.getenv("OPENAI_API_KEY")
 
 # Utility functions
 def get_embedding_model():
@@ -132,24 +132,14 @@ def get_embedding_model():
             dim)
 
 
-SYSTEM_PROMPT = """You are a retrieval-grounded assistant.
-     Answer strictly from the provided context.
-     Rules:
-        - If the answer is not fully supported by the context, say:
-     "The information is not available in the provided context."
-        - Do NOT fabricate or guess; do not use outside knowledge.
-        - Prefer concise, direct answers. Use bullet points when listing items.
-        - If the user asks for something unrelated to the context, tell them
-     it’s out of scope and suggest rephrasing.
-        - If there are conflicting passages, note the conflict and present
-     the most relevant passages with citations.
-        - Be polite and courteous.
-
+SYSTEM_PROMPT = """Respond to the user query based on the provided context.
      Output format:
        - A short answer in 1 to 5 lines.
 """
 
-LLM = OpenAI(model="gpt-3.5-turbo", system_prompt=SYSTEM_PROMPT)
+model_to_use = "gpt-5-mini"
+LLM = OpenAI(model=model_to_use, system_prompt=SYSTEM_PROMPT, api_key=api_key)
+
 Settings.llm = LLM
 embedding_used, EMBED_DIM = get_embedding_model()
 Settings.embed_model = embedding_used
@@ -247,10 +237,11 @@ async def search(body: QueryIn):
             status_code=400,
             detail="k must be between 1 and 20"
         )
+    
     try:
         global embedding_used, LLM
         Settings.embed_model = embedding_used
-
+        print("Loading index from storage...")
         # load index from disk
         storage_context = StorageContext.from_defaults(
             vector_store=FaissVectorStore.from_persist_dir(STORAGE_DIR),
@@ -262,7 +253,7 @@ async def search(body: QueryIn):
             llm=LLM,
             similarity_top_k=body.k
         )
-
+        logger.info(f"Querying index for...{body.question}")
         response = query_engine.query(body.question)
         logger.info(response.response)
         sources = []
@@ -275,13 +266,13 @@ async def search(body: QueryIn):
                 source += f"line {node.metadata.get('line_start', 'unknown')}"
                 source += f" - {node.metadata.get('line_end','unknown')}"
             sources.append(source)
-
         return QueryOut(
             answer=response.response,
             sources=sources
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
 
 @app.get("/health")
