@@ -68,7 +68,7 @@ uvicorn app.main:app --reload
 ```
 - Using Fastapi dev cli
 ```
-fastapi dev app/main.py
+fastapi dev main.py
 ```
 # Using Docker
 
